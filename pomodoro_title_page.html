@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title page</title>
+    <style>
+        header {
+            width: 100%;
+            align-items: center;
+            font-size: 2rem;
+            background-color: #b3e0ff;
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 40px;
+        }
+
+        #signup {
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            flex-shrink: 0;
+            transition: background-color 0.5s ease;
+            margin-top: 60px;
+            align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #D9EAFD;
+
+        }
+
+        body {
+            background-color: rgb(205,238,255);
+
+        }
+
+        .like-box1 {
+            margin-top: 50px;
+            text-align: center
+        }
+
+        .like-box2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .button {
+        margin-top: 20px;
+            text-align:center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div>✨ Pomodoro</div>
+</header>
+
+<div id="signup">
+    <div class="like-box1">
+        <form action="/subscribe" method="post">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </form>
+    </div>
+
+    <div class="like-box2">
+        <form action="/subscribe" method="post">
+            <input type="password" id="password" name="email" placeholder="Enter your password" required>
+        </form>
+    </div>
+
+    <div class="button" >
+        <button>
+            <a href="pomodoro_timer.html">Submit</a>
+        </button>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
